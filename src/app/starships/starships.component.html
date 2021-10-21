@@ -1,0 +1,40 @@
+
+
+<app-navbar></app-navbar>
+
+<div class="container pagina">
+<div class="tabla">
+  <table class="table table-responsive-md mt-5 align-middle">
+    <thead>
+      <tr>
+        <th class="fw-bold col-md-5" scope="col">
+          Name
+        </th>
+        <th class="fw-bold col-md-5" scope="col">
+          Model
+        </th>
+        <th class="fw-bold col-md-5" scope="col">
+          Manufacturer
+        </th>
+        <th class="fw-bold col-md-5" scope="col">
+          Cost in credits
+        </th>
+        <th class="fw-bold col-md-5" scope="col">
+          Details
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let nave of naves; let i = index">
+        <td class="pr-td">{{nave.name}}</td>
+        <td class="pr-td">{{nave.model}}</td>
+        <td class="pr-td">{{nave.manufacturer}}</td>
+        <td class="pr-td">{{nave.cost_in_credits}}</td>
+      </tr>
+    </tbody>
+
+
+  </table>
+</div>
+</div>
+

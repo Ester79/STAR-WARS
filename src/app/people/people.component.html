@@ -1,0 +1,53 @@
+
+
+
+  <app-navbar></app-navbar>
+  <div class="container pagina">
+    <p>TABLA PERSONAJES</p>
+    <div class="tabla">
+      <table class="table table-responsive-md mt-5 align-middle">
+        <thead>
+          <tr>
+            <th class="fw-bold col-md-5" scope="col">
+              Name
+            </th>
+            <th class="fw-bold col-md-5" scope="col">
+              Height
+            </th>
+            <th class="fw-bold col-md-5" scope="col">
+              Mass
+            </th>
+            <th class="fw-bold col-md-5" scope="col">
+              Hair
+            </th>
+            <th class="fw-bold col-md-5" scope="col">
+              Eyes
+            </th>
+            <th class="fw-bold col-md-5" scope="col">
+              Gender
+            </th>
+            <th class="fw-bold col-md-5" scope="col">
+              Birt Year
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let persona of personajes; let i = index">
+            <td class="pr-td">{{persona.name}}</td>
+            <td class="pr-td">{{persona.height}}</td>
+            <td class="pr-td">{{persona.mass}}</td>
+            <td class="pr-td">{{persona.hair}}</td>
+            <td class="pr-td">{{persona.eye_color}}</td>
+            <td class="pr-td">{{persona.gender}}</td>
+            <td class="pr-td">{{persona.birth_year}}</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+  </div>
+
+
+
+
