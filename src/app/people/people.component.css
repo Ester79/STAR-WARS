@@ -1,5 +1,25 @@
 .pagina{
-  height: 700px;
-  margin-top: 200px;
+  height: 900px;
+  margin-top: 130px;
+
 }
+
+*{
+  color: white;
+}
+
+p{
+  font-size: 40px;
+  font-weight:bold;
+}
+
+.tabla{
+  padding-top: 20px;
+}
+
+tr:hover{
+  background-color: darkblue;
+  opacity: 0.8;
+}
+
 

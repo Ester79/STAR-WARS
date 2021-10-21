@@ -1,17 +1,32 @@
-.botones {
-  margin-inline-start: 40px;
-  border-radius: 0%;
+* {
+  font-family: Arial;
+  color: darkviolet;
+  letter-spacing: 4px;
+  font-size: 24px;
 }
+
+.botones {
+  border-radius: 0%;
+  margin-inline-start: 10px;
+  width: 20%;
+  position: relative;
+  padding: 15px 30px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.botones:hover{
+  background-color: darkviolet;
+  box-shadow: 0 0 10px darkviolet, 0 0 50px darkviolet, 0 0 80px darkviolet;
+}
+
 
 .navegador {
   background-color: black;
-  border: 1px solid white;
+  border: 1px solid darkviolet;
   height: 150px;
-}
-
-* {
-  font-family: Arial;
-  color: white;
+  justify-content: center;
+  box-shadow: 0 0 10px darkviolet, 0 0 40px darkviolet, 0 0 80px darkviolet;
 }
 
 .navbar-toggler{
